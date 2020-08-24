@@ -7,7 +7,7 @@ public class loginService {
 		System.out.println(password);
 		if(userId==null || password==null ||password.trim()=="") {
 			return false;
-		}else if(!userId.equals("Admin") && !password.equals("Admin")) {
+		}else if(!userId.equals("admin") && !password.equals("admin")) {
 			return false;
 		}
 		
